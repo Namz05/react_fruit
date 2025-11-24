@@ -1,6 +1,7 @@
 import "./App.scss";
-import Accueil from "./components/Accueil/Accueil";
 import Navbar from "./components/Navbar/Navbar";
+import Accueil from "./components/Accueil/Accueil";
+
  
 function App() {
   return (
@@ -9,9 +10,9 @@ function App() {
         <div className="accueil">
           <Navbar/>
           <Accueil/>
-      </div>
-    </section>
-  </div>
-  );
+        </div>
+      </section>
+    </div>
+  )
 }
-export default App;
+export default App

@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react"
 import "./Accueil.scss"
 
 const Accueil = () => {
-  return <div>Acceuil</div>
+  return <div>Accueil</div>
 
 }
 
