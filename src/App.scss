@@ -23,4 +23,18 @@
             width: 80%;
         }
     }
+
+    .conteneur-produit{
+        margin-top: 95px;
+        margin-bottom: 95px;
+        display: flex;
+        justify-content: center;
+
+        .produits{
+            max-width: 1366px;
+            width: 80%;
+
+        }
+
+    }
 }
