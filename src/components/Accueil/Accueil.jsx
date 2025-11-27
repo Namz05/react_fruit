@@ -24,10 +24,9 @@ const Accueil = () => {
   return(
      <div className="accueil-grid">
     <div className="info">
-      <h1>Decouvrez la residence de vos reves</h1>
+      <h1>Mangez sainement durant votre careme religieux</h1>
       <p>
-        Touvez une residence n'a jamais ete un tel plaisir
-        , faut venir acheter seulement mon ami
+        Trouvez les fruits et/ou legumes dont vous avez besoins pour votre careme religieux
       </p>
       <div className="conteneur-recherche">
         <input type="text" />
@@ -40,21 +39,21 @@ const Accueil = () => {
             <span>+</span>
             <motion.strong>{roundedA}</motion.strong>
           </h3>
-          <span>Residence</span>
+          <span>Fruits vendus</span>
         </div>
         <div className="item">
           <h3>
             <span>+</span>
             <motion.strong>{roundedB}</motion.strong>
           </h3>
-          <span>Client satisfait</span>
+          <span>Legumes vendus</span>
         </div>
         <div className="item">
           <h3>
             <span>+</span>
             <motion.strong>{roundedC}</motion.strong>
           </h3>
-          <span>Partenaires</span>
+          <span>Client journaliers</span>
         </div>
       </div>
     </div>

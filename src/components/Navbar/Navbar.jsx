@@ -8,15 +8,15 @@ const Navbar = () => {
   return <div className="navbar">
     <div className="laptop">
       <h2 className="logo">
-        RexHome
+        iFruitz
       </h2>
       <div className="navigation">
         <ul className="links-conteneur">
-          <li className="links">Residence</li>
-          <li className="links">Valeur</li>
+          <li className="links">Liste des fruits</li>
+          <li className="links">Liste des legumes</li>
           <li className="links">Contact</li>
-          <li className="links">C'est parti</li>
-          <li className="links">Louer</li>
+          <li className="links">Panier</li>
+          <li className="links">Connexion</li>
         </ul>
         <FiMenu className="menu-icon"></FiMenu>
       </div>
