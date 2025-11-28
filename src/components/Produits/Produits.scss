@@ -34,6 +34,7 @@
             .carte-article{
                 width: 250px;
                 margin: inline-block;
+                display: inline-block ;
                 position: relative;
                 text-align: center;
 
@@ -67,11 +68,11 @@
 
 }
 
-// @keyframes scrolling{
-//     0%{
-//         transform: translateX(0);
-//     }
-//     100%{
-//         transform: translateX(-100%);
-//     }
-// }
+@keyframes scrolling{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

@@ -9,7 +9,7 @@ const Produis = () => {
         <h2 className='sous-titre'>Les fruits et legumes les plus achetes dans notre boutique</h2>
         <div className="conteneur-slide">
 
-            
+
             <div className="suivi-slide">
                 <div className="carte-article">
                     <img src={image.home4} alt="" />
@@ -41,7 +41,7 @@ const Produis = () => {
                         <span className="prix">
                             600<span>FCFA</span>
                         </span>
-                        <h4 className="nom">Raison</h4>
+                        <h4 className="nom">Raisin</h4>
                         <p className="description">
                             Un fruit Honctueux
                         </p>
@@ -55,7 +55,7 @@ const Produis = () => {
                         </span>
                         <h4 className="nom">Raison</h4>
                         <p className="description">
-                            Un fruit qui est asser sucrer pour diversifier
+                            Un fruit pour 
                         </p>
                     </div>
                 </div>               
@@ -94,7 +94,7 @@ const Produis = () => {
                         <span className="prix">
                             600<span>FCFA</span>
                         </span>
-                        <h4 className="nom">Raison</h4>
+                        <h4 className="nom">Raisin</h4>
                         <p className="description">
                             Un fruit Honctueux
                         </p>
